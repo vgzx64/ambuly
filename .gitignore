@@ -1,0 +1,68 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Dependency installs
+node_modules/
+**/node_modules/
+.npm/
+.pnpm-store/
+
+# Build output / generated assets
+/dist/
+**/dist/
+/build/
+**/build/
+/.vite/
+**/.vite/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+*.class
+*.out
+
+# Local tooling and editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and runtime data
+*.log
+logs/
+*.pid
+*.db
+*.sqlite
+*.sqlite3
+*.tar.gz
+*.tgz
+
+# Security / certificates / private keys
+*.pem
+*.crt
+*.key
+*.p12
+*.jks
+*.pfx
+bin/
+
+# Python artifacts (if any tooling is added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Fabric runtime artifacts that are generated locally
+blockchain/network/organizations/
+blockchain/network/configtx/*.block
+blockchain/network/configtx/*.tx
+blockchain/network/configtx/crypto-config.yaml
+blockchain/network/configtx/genesis.block
+blockchain/network/configtx/channel.tx
+
+# Frontend build output
+frontend/dist/
+backend/**/dist/
