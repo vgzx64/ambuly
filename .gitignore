@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Docs drafts
+report/
+
 # Dependency installs
 node_modules/
 **/node_modules/
